@@ -1,0 +1,202 @@
+/*Codigo CSS*/
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px; 
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav ul li{
+    
+    margin: 0px 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    
+    color: #373737;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.vaccination{
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.menu_boton{
+    background-color:blue;
+    border-radius: 15%;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 1rem 1rem rgba(0, 23, 85, 0.2);
+    /* box-shadow: 1px 3px 3px black ; */
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+.margenContenedor{
+    margin-top: 40px;
+}
+
+/*Contenedor 1*/
+.grid-container {
+    display: flex;
+    padding: 10px;
+  }
+  
+.grid-item-texto {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 5px;
+    font-size: 30px;
+    text-align: justify;
+    width: 40%;
+}
+
+.grid-item-texto2 {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    margin-left: 25px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.grid-item-texto3 {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    margin: 0px 50px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.tamaño-img {
+    width: 20px;
+    height: 20px;
+    /* box-shadow: 1px 1px 1px yellow; */
+
+}
+
+.grid-item-img {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 60%;
+    z-index: -1;
+
+}
+
+.sobreponer{
+    float: left;
+    margin-left: 100px;
+    background-color: transparent;
+    z-index: 10;
+   
+    box-shadow: 0 1rem 1rem rgba(0, 23, 85, 0.2);
+}
+
+
+/******************* Titulo *******************/
+.titulo  {
+    color: darkslateblue;
+  
+}
+
+p {
+    color: darkgrey;
+
+}
+
+
+/* Marcas de VACUNAS */
+.grid_vaccines{
+    width: 20%;
+    height: 100px;
+    margin: 0px 20px;
+}
+
+.noStyle{
+    list-style: none;
+}
+
+
+
+/* cards */
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.card{
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 15rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255, 255, 255, 0.060);
+    border: .1rem solid rgba(255, 255, 255, 0.18);
+    color: var(--white-text);
+}
+
+.card h6{
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.card h2{
+    letter-spacing: .1rem;
+    margin: 1rem 0;
+
+}
+
+.top-row{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.top-row i{
+    font-size: 2rem;
+}
+
+.content{
+    padding: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content p{
+    font-size: .9rem;    
+}
+
+.button{
+    border-radius: 3rem;
+    color: var(--white-text);
+    font-size: .8rem;
+    padding: .5rem .3rem;
+    letter-spacing: .1rem;
+    align-self: flex-end;
+    border: .1rem solid rgba(255, 255, 255, 0.18);
+}
