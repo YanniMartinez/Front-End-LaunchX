@@ -2,6 +2,13 @@
     font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
   }
 /*Codigo CSS*/
+a:hover{
+    padding: 5px;
+    color: white;
+    background-color: rgb(93, 93, 255);
+    border-radius: 30%;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -219,4 +226,14 @@ p {
 
 .centrado{
     margin-left: 4rem;
+}
+
+
+/* Animacion */
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
