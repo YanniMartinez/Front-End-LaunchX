@@ -1,3 +1,6 @@
+* {
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+  }
 /*Codigo CSS*/
 nav ul {
     display: flex;
@@ -28,6 +31,11 @@ nav ul li a{
     font-size: 30px;
 }
 
+.fondo_imagenes{
+    border-radius: 2%;
+    background: rgb(83,87,255);
+    background: linear-gradient(58deg, rgba(83,87,255,1) 0%, rgba(99,78,207,1) 65%, rgba(126,64,125,1) 100%); 
+}
 
 .menu_boton{
     background-color:blue;
@@ -100,7 +108,9 @@ nav ul li a{
 .sobreponer{
     float: left;
     margin-left: 100px;
-    background-color: transparent;
+    /* background-color: white; */
+    background: rgb(255,255,255);
+    background: linear-gradient(58deg, rgba(255,255,255,0.9239615118612272) 99%, rgba(126,64,125,1) 100%); 
     z-index: 10;
    
     box-shadow: 0 1rem 1rem rgba(0, 23, 85, 0.2);
@@ -141,11 +151,13 @@ p {
 }
 
 .card{
+
     border-radius: 1rem;
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     margin: 1.5rem;
+    margin-top: -5rem;
     overflow: hidden;
     width: 15rem;
     backdrop-filter: blur(1rem);
@@ -178,6 +190,10 @@ p {
     font-size: 2rem;
 }
 
+.background-top-row{
+    background-color: rgb(213, 243, 255);
+}
+
 .content{
     padding: 2rem;
     width: 80%;
@@ -199,4 +215,8 @@ p {
     letter-spacing: .1rem;
     align-self: flex-end;
     border: .1rem solid rgba(255, 255, 255, 0.18);
+}
+
+.centrado{
+    margin-left: 4rem;
 }
