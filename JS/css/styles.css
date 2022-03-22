@@ -1,0 +1,116 @@
+* {
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+}
+
+
+i:hover{
+    color: #e95e1e;
+    border-radius: 1rem;
+}
+
+
+.nav{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 244, 231);
+}
+
+.enlace:hover{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+
+.animaPokemon{
+    animation: pokemon 5s infinite;
+}
+
+.fondo{
+    
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.fondoCarta{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.sombra{
+    box-shadow: 0 1rem 1rem rgba(0, 23, 85, 0.2);
+}
+
+.stats{
+    background-color: rgb(0, 135, 224);
+    color: white;
+    border-radius: 1rem;
+    margin: 10px 0px;
+}
+
+.input{
+    width: 30%;
+}
+
+@keyframes pokemon {
+    0%{
+        transform: translateX(0.5px);
+    }
+    30%{
+        transform: translateX(0) rotate(2deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: translateX(-2px);
+    }
+}
+
+@media(max-width: 1500px){
+    .carta{
+    margin: 8rem 17rem;
+    }
+
+    .espacios{
+        margin-top: -100px;
+    }
+
+}
+
+@media(max-width: 1000px){
+    .carta{
+      margin: 8rem 10rem;
+  }
+
+  .espacios{
+    margin-top: -60px;
+    }       
+}
+
+@media(max-width: 800px){
+    .carta{
+      margin: 3rem 5rem;
+  }
+
+  .espacios{
+    margin-top: -60px;
+    } 
+}
