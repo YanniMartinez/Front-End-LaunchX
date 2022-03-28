@@ -36,6 +36,9 @@ button.addEventListener('click', event =>{ /* Creamos un escuchador de eventos *
             pokeDefense.textContent = "Defense: "+ data.stats[2].base_stat;
             pokeDefense.style="background-color: green"
 
+            let pokeType = document.getElementById("type");
+            pokeType.textContent = data.types[0].type.name.toUpperCase();
+            
 
             console.log(pokeImg);
         }

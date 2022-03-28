@@ -8,6 +8,48 @@ i:hover{
     border-radius: 1rem;
 }
 
+/* Posiciones */
+.imagen_card{
+    width: 110px;
+    height: 110px;
+    position: relative;
+    top: 190px;
+    left: -210px;
+}
+
+.nombre_pokemon{
+    font-weight: bold;
+    position: relative;
+    top: 200px;
+    left: -210px;
+}
+
+.hp{
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+
+.atack{
+    position: relative;
+    top: 37px;
+    left: 130px;
+}
+
+.def{
+    position: relative;
+    top: -62px;
+    left: 250px;
+}
+
+
+.tipo{
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 180px;
+    left: -250px;
+}
 
 .nav{
     color: white;
@@ -27,14 +69,16 @@ i:hover{
     animation: pokemon 5s infinite;
 }
 
-.fondo{
-    
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
+.contenedor{
+    width: 100%;
+    height: 600px;
+}
 
+.fondo{
+    background-image:url(https://th.bing.com/th/id/R.3c2eab4a8d335bed746bc712b5716457?rik=CIGLtyQdnGYuNg&riu=http%3a%2f%2fpokemongo.vn%2fwp-content%2fuploads%2f2015%2f10%2fpokedex-578x420.png&ehk=s3UxBxiWm08%2ffNSCNPxNW1L%2bph7CNHCKVGv6Cb%2fq52w%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+    background-position: center;
 }
 
 .fondoCarta{
